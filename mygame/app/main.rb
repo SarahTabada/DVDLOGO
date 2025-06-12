@@ -44,5 +44,10 @@ def tick args
     args.state.player_y = 0
   end
 
+  if args.inputs.keyboard.key_up.space
+    args.grid.w -= 20
+    args.grid.h -= 20
+  end
+
 args.outputs.sprites << [args.state.player_x, args.state.player_y, player_w, player_h, 'sprites/dvdlogo.png']
 end
