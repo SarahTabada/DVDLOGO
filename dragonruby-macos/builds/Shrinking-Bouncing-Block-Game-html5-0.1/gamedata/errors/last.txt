@@ -1,0 +1,19 @@
+* EXCEPTION:
+* ERROR - :+ method missing on ~Class~.
+
+#+begin_src ~Class#inspect~
+NIL
+#+end_src ~Class#inspect~
+
+
+
+The method named
+  :+
+with args
+  [nil]
+doesn't exist on [NilClass].
+
+(suggestions above)
+** Backtrace:
+*** app/main.rb:32:in tick
+*** app/main.rb:26:in tick

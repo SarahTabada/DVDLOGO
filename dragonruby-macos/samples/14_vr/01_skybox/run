@@ -1,0 +1,7 @@
+#!/bin/sh
+cd "`dirname "$0"`"
+
+cd ..
+cd ..
+cd ..
+exec ./dragonruby-vrsim samples/14_vr/01_skybox
